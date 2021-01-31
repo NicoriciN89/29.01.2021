@@ -1,0 +1,71 @@
+body {
+    font-family: monospace, sans-serif;
+    background-color: #333;
+}
+
+.brand-wrapper {
+    background: linear-gradient(#222, #333, #444);
+}
+
+.navbar {
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+}
+
+.denumire {
+    position: absolute;
+    margin-top: 15px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .brand img {
+    height: 3em;
+}
+
+.navbar ul li {
+    display: table-cell;
+   
+    vertical-align: middle;
+    padding: -58px .3em;
+}
+
+.navbar ul li.main:nth-child(2) {
+    padding-left: 25%;
+}
+
+.navbar ul li.main:nth-child(3) {
+    padding-right: 5%;
+}
+
+.navbar ul li .main {
+    text-align: right;
+}
+
+.navbar ul li .contacts {
+    text-align: left;
+    padding: 200px;
+}
+
+.navbar ul li .contacts:nth-child(6) {
+    padding-left: 25% ;
+    
+}
+
+.navbar ul li .contacts:nth-child(4) {
+    padding-right: 25%;
+}
+
+.navbar ul li .user {
+    text-align: right;
+}
+
+.navbar ul {
+    display: table-row;
+
+}
